@@ -1,7 +1,7 @@
 
 package entidades;
 
-
+//prueba, subir archivo
 // Cuerpo de la clase para el futuro objeto que se vaya a crear - ENTIDAD
 public class Categoria {
     private int id;
