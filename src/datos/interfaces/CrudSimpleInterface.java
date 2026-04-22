@@ -3,7 +3,7 @@ package datos.interfaces;
 
 import java.util.List;
 
-
+// prueba, subir archivos
 public interface CrudSimpleInterface<T> {
     public List<T> listar(String texto);
     public boolean insertar(T obj);

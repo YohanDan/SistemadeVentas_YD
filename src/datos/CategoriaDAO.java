@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import java.sql.SQLException;
 
-
+// prueba, subir archivos
 public class CategoriaDAO implements CrudSimpleInterface<Categoria>{
     
     private final Conexion CON;
