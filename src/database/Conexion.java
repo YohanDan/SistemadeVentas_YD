@@ -8,6 +8,7 @@ import java.sql.SQLException;
 import javax.swing.JOptionPane;
 
 
+// prueba, subir archivo
 public class Conexion {
     
     private final String DRIVER = "com.mysql.cj.jdbc.Driver";
