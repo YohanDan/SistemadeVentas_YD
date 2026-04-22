@@ -105,4 +105,8 @@ public class CategoriaControl {
         return DATOS.total();
     }
     
+    public int totalMostrados(){
+        return this.registroMostrado;
+    }
+    
 }
