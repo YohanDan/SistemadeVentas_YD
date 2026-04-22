@@ -10,6 +10,6 @@ public interface CrudSimpleInterface<T> {
     public boolean actualizar(T obj);
     public boolean desactivar(T obj);
     public boolean activar(T obj);
-    public boolean total();
+    public int total(); // arreglado
     public boolean existe(String texto);
 }
