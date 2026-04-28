@@ -4,8 +4,8 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/DANY/Documents/NetBeansProjects/SistemadeVentas_YD/src/presentacion/FrmCategoria.java</file>
-            <file>file:/C:/Users/DANY/Documents/NetBeansProjects/SistemadeVentas_YD/src/negocio/CategoriaControl.java</file>
-            <file>file:/C:/Users/DANY/Documents/NetBeansProjects/SistemadeVentas_YD/src/datos/CategoriaDAO.java</file>
+            <file>file:/C:/Users/DANY/Documents/NetBeansProjects/SistemadeVentas_YD/src/datos/interfaces/CrudSimpleInterface.java</file>
+            <file>file:/C:/Users/DANY/Documents/NetBeansProjects/SistemadeVentas_YD/src/database/Conexion.java</file>
             <file>file:/C:/Users/DANY/Documents/NetBeansProjects/SistemadeVentas_YD/src/presentacion/FrmPrincipal.java</file>
         </group>
     </open-files>
