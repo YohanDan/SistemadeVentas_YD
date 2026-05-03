@@ -128,7 +128,7 @@ public class CategoriaDAO implements CrudSimpleInterface<Categoria>{
     public int total() {
         int totalRegistros = 0;
         try {
-            ps = CON.conectar().prepareStatement("SELECT COUNT(id) FROMcategoria");
+            ps = CON.conectar().prepareStatement("SELECT COUNT(id) FROM categoria");
             rs = ps.executeQuery();
             while (rs.next()) {                
                 totalRegistros = rs.getInt("COUNT(id)");
@@ -151,8 +151,8 @@ public class CategoriaDAO implements CrudSimpleInterface<Categoria>{
             ps = CON.conectar().prepareStatement("SELECT nombre FROM categoria WHERE nombre = ?");
             ps.setString(1, texto);
             rs = ps.executeQuery();
-            rs.last();
-            if(rs.getRow() > 0){
+            // rs.last();
+            if(rs.next()){
                 resp = true;
             }
             ps.close();
